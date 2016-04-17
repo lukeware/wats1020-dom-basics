@@ -6,8 +6,44 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+  background: #fff url(golden-fortune-cookies.jpg);
+}
+
+h1, h2, p {
+  color: white;
+	text-align: center;
+	text-shadow: 0px 1px 2px #555;
+	font-family: "Georgia", Times, serif;
+}
 .fortune-cookie-saying-wrapper {
+    background-color: rgba(243, 255, 255, 0.7);
     border: 1px solid #666;
     padding: 1em;
     margin: 1em;
+}
+
+.fortune-cookie-saying-wrapper p {
+  color: black;
+}
+
+.previous-fortunes-container {
+    background-color: rgba(243, 255, 255, 0.8);
+    border: 1px solid #666;
+    padding: 1em;
+    margin: 1em;
+}
+
+.previous-fortunes-container p {
+  color: white;
+}
+
+ul {
+    color: black;
+	  list-style-type: none;
+    background-color: rgba(243, 255, 255, 0.7);
+    border: 1px solid #666;
+    padding: 1em;
+    margin: 1em;
+    line-height: 30px;
 }
